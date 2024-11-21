@@ -38,7 +38,8 @@ namespace Tyuiu.ShmelevAV.Sprint5.Task0.V20
 
             string res = ds.SaveToFileTextData(x);
 
-            Console.WriteLine($"Файл {res} создан!");
+            Console.WriteLine("Файл: " + res);
+            Console.WriteLine("Создан!");
             Console.ReadKey();
         }
     }
