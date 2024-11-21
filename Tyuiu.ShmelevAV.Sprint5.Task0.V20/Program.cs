@@ -1,4 +1,6 @@
-﻿using Tyuiu.ShmelevAV.Sprint5.Task0.V20.Lib;
+﻿using System.IO;
+
+using Tyuiu.ShmelevAV.Sprint5.Task0.V20.Lib;
 
 namespace Tyuiu.ShmelevAV.Sprint5.Task0.V20
 {
@@ -36,8 +38,7 @@ namespace Tyuiu.ShmelevAV.Sprint5.Task0.V20
 
             string res = ds.SaveToFileTextData(x);
 
-            Console.WriteLine("Файл: " + res);
-            Console.WriteLine("Создан!");
+            Console.WriteLine($"Файл {res} создан!");
             Console.ReadKey();
         }
     }
