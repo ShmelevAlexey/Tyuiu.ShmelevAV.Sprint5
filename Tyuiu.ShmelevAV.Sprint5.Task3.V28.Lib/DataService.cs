@@ -1,6 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint5;
-
-using System.Text;
+﻿using System.Text;
+using tyuiu.cources.programming.interfaces.Sprint5;
 
 namespace Tyuiu.ShmelevAV.Sprint5.Task3.V28.Lib
 {
@@ -10,7 +9,7 @@ namespace Tyuiu.ShmelevAV.Sprint5.Task3.V28.Lib
         {
             string path = Path.GetTempFileName();
 
-            double y = -(1 / 4) * (Math.Pow(x, 3) - 3 * Math.Pow(x, 2) + 4);
+            double y = -0.25 * (Math.Pow(x, 3) - 3 * Math.Pow(x, 2) + 4);
 
             y = Math.Round(y, 3);
 
