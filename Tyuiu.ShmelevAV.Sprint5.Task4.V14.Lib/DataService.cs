@@ -7,6 +7,7 @@ namespace Tyuiu.ShmelevAV.Sprint5.Task4.V14.Lib
         public double LoadFromDataFile(string path)
         {
             string strX = File.ReadAllText(path);
+            strX = strX.Replace('.', ',');
             double x = Convert.ToDouble(strX);
             double res = Math.Sin(Math.Pow(x, 3)) + 2 / x;
             res = Math.Round(res, 3);
